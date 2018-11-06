@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains cnbc_relation.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function cnb_relation_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the entity_reference_quantity module.
+    case 'help.page.cnbc_relation':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('CNBC Relation Field') . '</p>';
+      return $output;
+
+    default:
+  }
+}

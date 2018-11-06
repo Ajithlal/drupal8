@@ -1,0 +1,36 @@
+module_hero.herolist:
+  path: '/herolist'
+  defaults:
+    _controller: '\Drupal\module_heros\Controller\HeroController::heroList'
+    _title: 'Our super heroes list'
+  requirements:
+    _permission: 'access content'
+
+module_hero.heroInfo:
+  path: '/hero'
+  defaults:
+    _controller: '\Drupal\module_heros\Controller\HeroController::heroInfo'
+    _title: 'Our super heroes list'
+  requirements:
+    _permission: 'access content'
+
+
+module_heros.hero_form:
+  path: '/module_heros/hero-form'
+  defaults:
+    _form: '\Drupal\module_heros\Form\HeroForm'
+    _title: 'HeroForm'
+  requirements:
+    _access: 'TRUE'
+  
+
+module_heros.hero_config_form:
+  path: '/admin/config/module_heros/heroconfig'
+  defaults:
+    _form: '\Drupal\module_heros\Form\HeroConfigForm'
+    _title: 'HeroConfigForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

@@ -1,0 +1,7 @@
+entity-collection-field-operations:
+  js:
+    js/entityCollectionField.behavior.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/jquery.once

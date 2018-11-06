@@ -1,0 +1,15 @@
+services:
+  entity_collection.source_field_manager:
+   class: \Drupal\entity_collector\EntityCollectionSourceFieldManager
+   arguments:
+      - '@entity_field.manager'
+      - '@entity_type.manager'
+
+  entity_collection.manager:
+     class: Drupal\entity_collector\Service\EntityCollectionManager
+     arguments:
+       - '@user.private_tempstore'
+       - '@entity_type.manager'
+       - '@current_user'
+       - '@entity_collection.source_field_manager'
+       - '@lock'

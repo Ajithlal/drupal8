@@ -1,0 +1,7 @@
+{{ attach_library('module_heros/hero-style') }}
+<h4 class="animated bounce"> {{ title }} </h4>
+<ul>
+{% for item in items %}
+ <li> {{ item.name }}</li>
+{%   endfor %}
+</ul>

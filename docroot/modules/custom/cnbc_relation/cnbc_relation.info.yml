@@ -1,0 +1,10 @@
+name: CNBC Relation
+type: module
+description: CNBC Relation Filed
+# core: 8.x
+package: Custom
+
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'cnbc_relation'
+datestamp: 1488946088

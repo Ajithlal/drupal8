@@ -1,0 +1,6 @@
+name: CNBC Metadata Field
+type: module
+description: A module for all common fields in toolbelt
+package: custom
+version: 1.0
+core: 8.x

@@ -1,0 +1,4 @@
+services:
+  module_heros.hero_details:
+    class: Drupal\module_heros\HeroDetailService
+    arguments: ['@entity.query', '@entity.manager']

@@ -1,0 +1,7 @@
+module_heros.hero_config_form:
+  title: 'HeroConfigForm'
+  route_name: module_heros.hero_config_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99
+

@@ -1,0 +1,71 @@
+entity_collector.get_active_collection:
+  path: '/ajax/entity-collector/get-active-collection/{entityCollectionTypeId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionAjaxListController:getActiveCollection'
+    _title: 'Get active collection'
+  requirements:
+    _custom_access: 'Drupal\entity_collector\Controller\EntityCollectionActionController::checkViewAccess'
+
+entity_collector.set_active_collection:
+  path: '/nojs/entity-collector/set-active-collection/{entityCollectionTypeId}/{entityCollectionId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionAjaxListController:setActiveCollection'
+    _title: 'Set active collection'
+  requirements:
+    _custom_access: 'Drupal\entity_collector\Controller\EntityCollectionActionController::checkViewAccess'
+
+entity_collector.set_active_collection_ajax:
+  path: '/ajax/entity-collector/set-active-collection/{entityCollectionTypeId}/{entityCollectionId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionAjaxListController:setActiveCollection'
+    _title: 'Set active collection'
+  requirements:
+    _custom_access: 'Drupal\entity_collector\Controller\EntityCollectionActionController::checkViewAccess'
+
+entity_collector.get_collection_list:
+  path: '/ajax/entity-collector/get-collections/{entityCollectionTypeId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionAjaxListController:getCollections'
+    _title: 'Get collections'
+  requirements:
+    _permission: 'view published entity collection entities'
+
+entity_collector.add:
+  path: '/nojs/entity-collector/add/{entityCollectionId}/{entityId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionActionController:addEntityToCollection'
+    _title: 'Add entity to active collection'
+  requirements:
+    _custom_access: 'Drupal\entity_collector\Controller\EntityCollectionActionController::checkUpdateAccess'
+
+entity_collector.remove:
+  path: '/nojs/entity-collector/remove/{entityCollectionId}/{entityId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionActionController:removeEntityFromCollection'
+    _title: 'Remove entity to active collection'
+  requirements:
+    _custom_access: 'Drupal\entity_collector\Controller\EntityCollectionActionController::checkUpdateAccess'
+
+entity_collector.add_ajax:
+  path: '/ajax/entity-collector/add/{entityCollectionId}/{entityId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionActionController:addEntityToCollection'
+    _title: 'Add entity to collection'
+  requirements:
+    _custom_access: 'Drupal\entity_collector\Controller\EntityCollectionActionController::checkUpdateAccess'
+
+entity_collector.remove_ajax:
+  path: '/ajax/entity-collector/remove/{entityCollectionId}/{entityId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionActionController:removeEntityFromCollection'
+    _title: 'Remove entity from collection'
+  requirements:
+    _custom_access: 'Drupal\entity_collector\Controller\EntityCollectionActionController::checkUpdateAccess'
+
+entity_collector.entity_collection_block:
+  path: '/ajax/entity-collector/block/{blockId}'
+  defaults:
+    _controller: '\Drupal\entity_collector\Controller\EntityCollectionBlockController:refresh'
+    _title: 'Get entity collection block'
+  requirements:
+    _permission: 'edit entity collection entities'
