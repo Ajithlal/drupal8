@@ -11,8 +11,8 @@ use Drupal\Core\Form\FormStateInterface;
  *
  * @FieldFormatter(
  *   id = "cnbc_relation_label",
- *   label = @Translation("Label with quantity"),
- *   description = @Translation("Display the label of the referenced entities with quantity."),
+ *   label = @Translation("Label with promoted"),
+ *   description = @Translation("Display the label of the referenced entities with promoted."),
  *   field_types = {
  *     "cnbc_relation"
  *   }
@@ -26,7 +26,7 @@ class CNBCRelationLabelFormatter extends EntityReferenceLabelFormatter {
   public static function defaultSettings() {
     return array(
         'location' => 'suffix',
-        'template' => ' ({{ quantity }})',
+        'template' => ' ({{ promoted }})',
       ) + parent::defaultSettings();
   }
 
@@ -51,7 +51,7 @@ class CNBCRelationLabelFormatter extends EntityReferenceLabelFormatter {
       '#type' => 'textfield',
       '#title' => t('Output template'),
       '#default_value' => $this->getSetting('template'),
-      '#description' => t('A simple Twig snippet that outputs the "quantity" variable.'),
+      '#description' => t('A simple Twig snippet that outputs the "promoted" variable.'),
       '#required' => TRUE,
     );
 
@@ -93,14 +93,14 @@ class CNBCRelationLabelFormatter extends EntityReferenceLabelFormatter {
     $twig = new \Twig_Environment();
 
     foreach ($elements as $delta => $entity) {
-      if (!empty($values[$delta]['quantity'])) {
+      if (!empty($values[$delta][''])) {
         /** @var \Drupal\Core\Template\TwigEnvironment $environment */
         $environment = \Drupal::service('twig');
-        $output = $environment->renderInline($this->getSetting('template'), ['quantity' => $values[$delta]['quantity']]);
+        $output = $environment->renderInline($this->getSetting('template'), ['promoted' => $values[$delta]['promoted']]);
 
         switch ($this->getSetting('location')) {
           case 'attribute':
-            $elements[$delta]['#attributes']['data-quantity'] = $output;
+            $elements[$delta]['#attributes']['data-promoted'] = $output;
             break;
           case 'pre-title':
             $elements[$delta]['#title'] .= $output;

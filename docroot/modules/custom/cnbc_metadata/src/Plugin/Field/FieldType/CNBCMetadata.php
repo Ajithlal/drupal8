@@ -88,13 +88,7 @@ public static function schema(FieldStorageDefinitionInterface $field_definition)
   );
 }
 
-/**
- * {@inheritdoc}
- */
-public function isEmpty() {
-  $valueSlug = $this->get('slug')->getValue();
-  return empty($valueSlug);
-}
+
 
 /**
  * {@inheritdoc}

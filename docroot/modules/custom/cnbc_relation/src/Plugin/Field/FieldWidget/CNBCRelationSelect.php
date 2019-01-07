@@ -38,19 +38,6 @@ class CNBCRelationSelect extends OptionsWidgetBase
     );
 
     $widget['target_id'] = $element;
-    $widget['quantity'] = array(
-      '#type' => 'number',
-      '#size' => '4',
-      '#default_value' => isset($items[$delta]) ? $items[$delta]->quantity : 1,
-      '#weight' => 10,
-    );
-
-    if ($this->fieldDefinition->getFieldStorageDefinition()->isMultiple()) {
-      $widget['quantity']['#placeholder'] = $this->fieldDefinition->getSetting('qty_label');
-    }
-    else {
-      $widget['quantity']['#title'] = $this->fieldDefinition->getSetting('qty_label');
-    }
 
     return $widget;
   }
@@ -113,9 +100,6 @@ class CNBCRelationSelect extends OptionsWidgetBase
     foreach ($values as $delta => $data) {
       if (isset($data['element'])) {
         $values[$delta] = $data['element'];
-      }
-      if (empty($data['quantity'])) {
-        unset($values[$delta]['quantity']);
       }
     }
     return $values;

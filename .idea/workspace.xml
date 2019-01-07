@@ -2,7 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f238c3-add2-426c-b93b-6dd40d62285f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/sites/default/settings.php" afterPath="$PROJECT_DIR$/docroot/sites/default/settings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/config/schema/field_permissions.schema.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/css/field_permissions.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.libraries.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.links.menu.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.links.task.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.permissions.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/images/field_permissions.status-off.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/images/field_permissions.status-on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/js/field_permissions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Annotation/FieldPermissionType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Controller/FieldPermissionsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/FieldPermissionsService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/FieldPermissionsServiceInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Plugin/AdminFormSettingsInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Plugin/CustomPermissionsInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Plugin/FieldPermissionType/Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Plugin/FieldPermissionType/CustomAccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Plugin/FieldPermissionType/Manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Plugin/FieldPermissionType/PrivateAccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Plugin/FieldPermissionTypeInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/src/Plugin/migrate/process/FieldPermissionSettings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/modules/field_permissions_test/field_permissions_test.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/modules/field_permissions_test/src/Plugin/FieldPermissionType/TestAccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Functional/FieldPermissionsCommentTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Functional/FieldPermissionsNodeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Functional/FieldPermissionsTestBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Functional/FieldPermissionsUserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Functional/FieldReportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Kernel/Plugin/FieldPermissionType/ManagerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Kernel/ViewsFieldAccessTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Unit/FieldPermissionsServiceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Unit/Plugin/FieldPermissionType/CustomAccessTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/tests/src/Unit/Plugin/FieldPermissionType/PrivateAccessTest.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/config/install/simple_oauth.oauth2_token.bundle.access_token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/config/install/simple_oauth.oauth2_token.bundle.auth_code.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/config/install/simple_oauth.oauth2_token.bundle.refresh_token.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/config/install/simple_oauth.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/config/schema/simple_oauth.schema.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.info.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.links.action.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.links.menu.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.links.task.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.module" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.permissions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.routing.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.services.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/config/install/simple_oauth_extras.settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/config/schema/simple_oauth_extras.schema.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/simple_oauth_extras.info.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/simple_oauth_extras.module" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/simple_oauth_extras.permissions.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/simple_oauth_extras.routing.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/simple_oauth_extras.services.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Controller/DebugController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Controller/Oauth2AuthorizeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Controller/Oauth2AuthorizeForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Entities/AuthCodeEntity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Grant/ClientCredentialsOverrideGrant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Plugin/Oauth2Grant/AuthorizationCode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Plugin/Oauth2Grant/ClientCredentials.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Plugin/Oauth2Grant/Code.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Plugin/Oauth2Grant/Implicit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Plugin/Oauth2Grant/RefreshToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/src/Repositories/AuthCodeRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.info.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/tests/simple_oauth_extras_test/simple_oauth_extras_test.routing.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/tests/simple_oauth_extras_test/src/Controller/RedirectDebug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/tests/src/Functional/AuthCodeFunctionalTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/tests/src/Functional/ClientCredentialsFunctionalTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/tests/src/Functional/ImplicitFunctionalTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/tests/src/Functional/RefreshFunctionalTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth_extras/tests/src/Functional/RolesNegotiationFunctionalTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/AccessTokenAccessControlHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Annotation/Oauth2Grant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Authentication/Provider/SimpleOauthAuthenticationProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Authentication/TokenAuthUser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Authentication/TokenAuthUserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Controller/Oauth2GenerateKey.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Controller/Oauth2Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entities/AccessTokenEntity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entities/ClientEntity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entities/ClientEntityInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entities/RefreshTokenEntity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entities/ScopeEntity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entities/ScopeEntityNameInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entities/UserEntity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/ConfigEntityLockableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/ConfigEntityLockableTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/Form/Oauth2GenerateKeyForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/Form/Oauth2TokenDeleteForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/Form/Oauth2TokenSettingsForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/Oauth2Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/Oauth2TokenInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/Oauth2TokenType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Entity/Oauth2TokenTypeInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/ExpiredCollector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/HttpMiddleware/BasicAuthSwap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/KnownClientsRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/KnownClientsRepositoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/LockableConfigEntityAccessControlHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Normalizer/RefreshTokenEntityNormalizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Normalizer/TokenEntityNormalizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Normalizer/TokenEntityNormalizerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Oauth2TokenListBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/PageCache/DisallowSimpleOauthRequests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/PageCache/SimpleOauthRequestPolicyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Plugin/Oauth2Grant/Password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Plugin/Oauth2GrantBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Plugin/Oauth2GrantInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Plugin/Oauth2GrantManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Plugin/Oauth2GrantManagerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Repositories/AccessTokenRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Repositories/ClientRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Repositories/RefreshTokenRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Repositories/RevocableTokenRepositoryTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Repositories/ScopeRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Repositories/UserRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Server/ResourceServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Server/ResourceServerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Service/Exception/ExtensionNotLoadedException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Service/Exception/FilesystemValidationException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Service/Filesystem/Filesystem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Service/Filesystem/FilesystemInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Service/Filesystem/FilesystemValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Service/KeyGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/src/Service/KeyGeneratorService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/tests/certificates/private.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/tests/certificates/public.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/tests/src/Functional/PasswordFunctionalTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/tests/src/Functional/RequestHelperTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/tests/src/Functional/SimpleOauthTestTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/tests/src/Functional/TokenBearerFunctionalTestBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/tests/src/Unit/Authentication/Provider/SimpleOauthAuthenticationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/tests/src/Unit/EntityCollectorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/cnbc_metadata.info.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldFormatter/CNBCMetdataFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType/CNBCMetadata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCMetadataWidget.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/LICENSE.txt" afterPath="$PROJECT_DIR$/docroot/modules/contrib/field_permissions/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/toolbelt-dev.iml" afterPath="$PROJECT_DIR$/.idea/toolbelt-dev.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/composer.json" afterPath="$PROJECT_DIR$/docroot/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/composer.lock" afterPath="$PROJECT_DIR$/docroot/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldFormatter/CNBCRelationLabelFormatter.php" afterPath="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldFormatter/CNBCRelationLabelFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldType/CNBCRelation.php" afterPath="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldType/CNBCRelation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationAutocomplete.php" afterPath="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationAutocomplete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationSelect.php" afterPath="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationSelect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/docroot/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/docroot/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/docroot/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/docroot/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/docroot/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/docroot/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docroot/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/docroot/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,19 +176,169 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="simple_oauth.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="53" column="68" lean-forward="false" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNBCRelation.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldType/CNBCRelation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNBCRelationLabelFormatter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldFormatter/CNBCRelationLabelFormatter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="90" column="56" lean-forward="false" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNBCRelationAutocomplete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationAutocomplete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNBCRelationSelect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationSelect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="82" column="40" lean-forward="false" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cnbc_relation.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/cnbc_relation.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cnbc_relation.info.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/cnbc_relation.info.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/sites/default/settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3480">
+              <caret line="232" column="65" lean-forward="false" selection-start-line="232" selection-start-column="61" selection-end-line="232" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.settings.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/sites/default/default.settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3645">
+              <caret line="243" column="36" lean-forward="false" selection-start-line="243" selection-start-column="35" selection-end-line="243" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.site.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docroot/core/modules/system/config/install/system.site.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>body</find>
+      <find>keywords</find>
+      <find>database</find>
+      <find>Field visibility and permissions</find>
+      <find>oauth2_token</find>
+      <find>sync</find>
+      <find>isRe</find>
+      <find>quantity</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>promoted</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCMetadataWidget.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCRelationAutocomplete.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCRelationSelect.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldFormatter/CNBCRelationLabelFormatter.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType/CNBCRelation.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/config/schema/simple_oauth.schema.yml" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType/CNBCMetadata.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationSelect.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldFormatter/CNBCRelationLabelFormatter.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationAutocomplete.php" />
+        <option value="$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldType/CNBCRelation.php" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -41,13 +356,23 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
@@ -60,16 +385,145 @@
               <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_metadata" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_metadata" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_metadata" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_metadata" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Field" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_relation" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_relation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_relation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_relation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Field" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_relation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Field" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FieldFormatter" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_relation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Field" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FieldType" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="toolbelt-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolbelt-dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="docroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cnbc_relation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Field" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FieldWidget" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docroot/modules/custom" />
+      <recent name="$PROJECT_DIR$/docroot/modules/contrib" />
+      <recent name="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType" />
+      <recent name="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget" />
+      <recent name="$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldFormatter" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,6 +540,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="31f238c3-add2-426c-b93b-6dd40d62285f" name="Default" comment="" />
@@ -93,34 +550,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541530369374</updated>
-      <workItem from="1541530370655" duration="35000" />
+      <workItem from="1541530370655" duration="206000" />
+      <workItem from="1541538960648" duration="589000" />
+      <workItem from="1541693872630" duration="5018000" />
+      <workItem from="1541706022849" duration="242000" />
+      <workItem from="1542654869886" duration="2508000" />
+      <workItem from="1543517447606" duration="1311000" />
+      <workItem from="1543589669760" duration="826000" />
+      <workItem from="1543595446716" duration="3262000" />
+      <workItem from="1543856651055" duration="3741000" />
+      <workItem from="1543925657776" duration="992000" />
+      <workItem from="1544043881443" duration="1506000" />
+      <workItem from="1544105978443" duration="713000" />
+      <workItem from="1546626923725" duration="4933000" />
+      <workItem from="1546881727407" duration="452000" />
+      <workItem from="1546885263389" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35000" />
+    <option name="totallyTimeSpent" value="26316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16453674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50745475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45580932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -128,5 +602,314 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/cnbc_relation.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCMetadataWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="81" column="6" lean-forward="false" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/cnbc_settings.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/cnbc_relation.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/toolbelt.dev.dd/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType/CNBCMetadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="135" column="26" lean-forward="false" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/oauth/oauth.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType/CNBCSettings.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/oauth/oauth.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldFormatter/CNBCSettingsFormatter.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCMetadataWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="81" column="6" lean-forward="false" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/cnbc_settings.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/config/schema/simple_oauth.schema.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/toolbelt.dev.dd/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/cnbc_relation.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCRelationAutocomplete.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCRelationSelect.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType/CNBCRelation.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldFormatter/CNBCRelationLabelFormatter.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/sites/toolbelt.dev.dd/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldFormatter/CNBCSettingsFormatter.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/CNBCMetadataWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="81" column="6" lean-forward="false" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType/CNBCSettings.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/field_permissions/js/field_permissions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/oauth/oauth.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/oauth/oauth.links.menu.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.links.menu.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/oauth/oauth.install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/oauth/oauth.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/config/schema/simple_oauth.schema.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldWidget/cnbc_settings.php" />
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/cnbc_metadata.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldType/CNBCMetadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/slack/src/Form/SendTestMessageForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/slack/src/Plugin/RulesAction/SlackSendMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="89" column="68" lean-forward="false" selection-start-line="89" selection-start-column="68" selection-end-line="89" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/field_permissions/field_permissions.permissions.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/slack/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/rules/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_metadata/src/Plugin/Field/FieldFormatter/CNBCMetdataFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="232" column="65" lean-forward="false" selection-start-line="232" selection-start-column="61" selection-end-line="232" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/sites/default/default.settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3645">
+          <caret line="243" column="36" lean-forward="false" selection-start-line="243" selection-start-column="35" selection-end-line="243" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/core/modules/system/config/install/system.site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/contrib/simple_oauth/simple_oauth.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="53" column="68" lean-forward="false" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/cnbc_relation.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/cnbc_relation.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationAutocomplete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldWidget/CNBCRelationSelect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="82" column="40" lean-forward="false" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldFormatter/CNBCRelationLabelFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="90" column="56" lean-forward="false" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docroot/modules/custom/cnbc_relation/src/Plugin/Field/FieldType/CNBCRelation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

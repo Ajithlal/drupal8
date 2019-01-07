@@ -13,7 +13,7 @@ use Drupal\Core\Form\FormStateInterface;
  * @FieldType(
  *   id = "cnbc_relation",
  *   label = @Translation("CNBC Relation"),
- *   description = @Translation("Entity reference with associated quantity"),
+ *   description = @Translation("Entity reference with associated promoted"),
  *   category = @Translation("Reference"),
  *   default_widget = "cnbc_relation_autocomplete",
  *   default_formatter = "cnbc_relation_label",
@@ -26,13 +26,15 @@ class CNBCRelation extends EntityReferenceItem {
    */
   public static function propertyDefinitions(FieldStorageDefinitionInterface $field_definition) {
     $properties = parent::propertyDefinitions($field_definition);
-    $quantity_definition = DataDefinition::create('integer')
-      ->setLabel($field_definition->getSetting('qty_label'));
-    $properties['quantity'] = $quantity_definition;
 
     $promoted_definition = DataDefinition::create('integer')
       ->setLabel($field_definition->getSetting('prm_label'));
     $properties['promoted'] = $promoted_definition;
+
+    $hightouch_definition = DataDefinition::create('integer')
+      ->setLabel($field_definition->getSetting('hgh_label'));
+    $properties['hightouch'] = $hightouch_definition;
+
     return $properties;
   }
 
@@ -41,10 +43,11 @@ class CNBCRelation extends EntityReferenceItem {
    */
   public static function schema(FieldStorageDefinitionInterface $field_definition) {
     $schema = parent::schema($field_definition);
-    $schema['columns']['quantity'] = array(
+
+    $schema['columns']['promoted'] = array(
       'type' => 'int',
     );
-    $schema['columns']['promoted'] = array(
+    $schema['columns']['hightouch'] = array(
       'type' => 'int',
     );
     return $schema;
@@ -55,10 +58,8 @@ class CNBCRelation extends EntityReferenceItem {
    */
   public static function defaultFieldSettings() {
     return array(
-      'qty_label' => t('Ordinal'),
-      'qty_min' => 0,
-      'qty_max' => 999,
-      'prm_label' => t('Promoted')
+      'prm_label' => t('Promoted'),
+      'hgh_label' => t('Is Hightouch')
     ) + parent::defaultFieldSettings();
   }
 
@@ -68,26 +69,16 @@ class CNBCRelation extends EntityReferenceItem {
   public function fieldSettingsForm(array $form, FormStateInterface $form_state) {
     $elements = parent::fieldSettingsForm($form, $form_state);
 
-    $elements['qty_min'] = [
-      '#type' => 'number',
-      '#title' => t('Minimum'),
-      '#default_value' => $this->getSetting('qty_min'),
-    ];
-    $elements['qty_max'] = [
-      '#type' => 'number',
-      '#title' => t('Maximum'),
-      '#default_value' => $this->getSetting('qty_max'),
-    ];
-    $elements['qty_label'] = [
-      '#type' => 'textfield',
-      '#title' => t('Quantity Label'),
-      '#default_value' => $this->getSetting('qty_label'),
-      '#description' => t('Also used as a placeholder in multi-value instances.')
-    ];
     $elements['prm_label'] = [
       '#type' => 'textfield',
       '#title' => t('Promoted Label'),
       '#default_value' => $this->getSetting('prm_label'),
+      '#description' => t('Also used as a placeholder in multi-value instances.')
+    ];
+    $elements['hgh_label'] = [
+      '#type' => 'textfield',
+      '#title' => t('Hightouch Label'),
+      '#default_value' => $this->getSetting('hgh_label'),
       '#description' => t('Also used as a placeholder in multi-value instances.')
     ];
     return $elements;

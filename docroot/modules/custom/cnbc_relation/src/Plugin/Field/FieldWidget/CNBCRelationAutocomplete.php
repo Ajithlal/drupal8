@@ -24,26 +24,19 @@ class CNBCRelationAutocomplete extends EntityReferenceAutocompleteWidget {
       '#theme_wrappers' => ['container'],
     );
     $widget['target_id'] = parent::formElement($items, $delta, $element, $form, $form_state);
-    $widget['quantity'] = array(
-      '#type' => 'number',
-      '#size' => '4',
-      '#default_value' => isset($items[$delta]) ? $items[$delta]->quantity : 1,
-      '#weight' => 10,
-    );
+
     $widget['promoted'] = array(
       '#type' => 'checkbox',
       '#title' => $this->fieldDefinition->getSetting('prm_label'),
       '#default_value' => isset($items[$delta]) ? $items[$delta]->promoted : 1,
       '#weight' => 11,
     );
-
-    if ($this->fieldDefinition->getFieldStorageDefinition()->isMultiple()) {
-      $widget['quantity']['#placeholder'] = $this->fieldDefinition->getSetting('qty_label');
-    }
-    else {
-      $widget['quantity']['#title'] = $this->fieldDefinition->getSetting('qty_label');
-    }
-
+    $widget['hightouch'] = array(
+      '#type' => 'checkbox',
+      '#title' => $this->fieldDefinition->getSetting('hgh_label'),
+      '#default_value' => isset($items[$delta]) ? $items[$delta]->hightouch : 1,
+      '#weight' => 11,
+    );
     return $widget;
   }
 
@@ -53,11 +46,11 @@ class CNBCRelationAutocomplete extends EntityReferenceAutocompleteWidget {
   public function massageFormValues(array $values, array $form, FormStateInterface $form_state) {
     $values = parent::massageFormValues($values, $form, $form_state);
     foreach ($values as $delta => $data) {
-      if (empty($data['quantity'])) {
-        unset($values[$delta]['quantity']);
-      }
       if (empty($data['promoted'])) {
         unset($values[$delta]['promoted']);
+      }
+      if (empty($data['hightouch'])) {
+        unset($values[$delta]['hightouch']);
       }
     }
     return $values;
